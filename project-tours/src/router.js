@@ -2,13 +2,14 @@ import Vue from 'vue'
 import VueRouter from "vue-router";
 
 import shop from './components/tourism_shop/Shop.vue'
-import tours from './components/project_tours/Tours.vue'
+import TourismTrips from './components/project_tours/content/TourismTrips.vue'
 
 Vue.use(VueRouter);
 
 const routes = [
   {path:"/shop", component: shop},
-  {path: "/tours", component: tours}
+  {path: "/", component: TourismTrips}
+
 ];
 
 const router = new VueRouter({
