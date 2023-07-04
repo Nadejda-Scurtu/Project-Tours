@@ -1,21 +1,23 @@
 <template>
-  <div id="app">
+  <div id="tours">
+    <header-navbar/>
     <router-view></router-view>
   </div>
-  
 </template>
 
 <script>
+import HeaderNavbar from "./header/HeaderNavbar.vue";
 
 export default {
-  name: 'App',
+  name: "ToursHome",
   components: {
-  }
-}
+    HeaderNavbar
+  },
+};
 </script>
 
 <style>
-#app {
+#tours {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

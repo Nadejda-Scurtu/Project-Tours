@@ -1,25 +1,28 @@
 <template>
-  <div id="app">
+  <div id="shop">
+    <header-shop/>
     <router-view></router-view>
   </div>
   
 </template>
 
 <script>
+import HeaderShop from './header/HeaderShop.vue'
 
 export default {
-  name: 'App',
+  name: 'ShopHome',
   components: {
+    HeaderShop
   }
 }
 </script>
 
 <style>
-#app {
+#shop {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
 }
