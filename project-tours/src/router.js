@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from "vue-router";
 
 import shop from './components/tourism_shop/Shop.vue'
-import TourismTrips from './components/project_tours/content/TourismTrips.vue'
+import TourismTrips from './components/project_tours/ToursTrips.vue'
 
 Vue.use(VueRouter);
 
